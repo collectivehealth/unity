@@ -1,4 +1,4 @@
-[![][travis-img]][travis-url] [![][david-img]][david-url] [![][david-dev-img]][david-dev-url] [![][npm-img]][npm-url] [![][xo-img]][xo-url]
+[![][npm-img]][npm-url] [![][travis-img]][travis-url] [![][david-img]][david-url] [![][david-dev-img]][david-dev-url] [![][cc-img]][cc-url] [![][xo-img]][xo-url]
 
 # unity
 
@@ -79,7 +79,7 @@ describe('MyCtrl', () => {
   it('should work', () => {
     // T.$scope is the controller's scope.
     // T.MyCtrl is the controller instance.
-    // Use get('$document') and get('$location') to interact with other injectables.
+    // Use get('$document'), get('$location'), etc. to interact with other injectables.
   });
 });
 ```
@@ -106,3 +106,6 @@ For more information, check out the [documentation](/src). Happy testing! 🎉
 
 [npm-img]: https://img.shields.io/npm/v/@collectivehealth/unity.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/@collectivehealth/unity
+
+[cc-img]: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=flat-square
+[cc-url]: https://github.com/conventional-changelog/standard-version

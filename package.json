@@ -28,6 +28,7 @@
     "build": "babel src --out-dir dist",
     "build:watch": "watch \"npm run build\" ./src/",
     "prepush": "npm run lint",
+    "bump": "standard-version",
     "prepublish": "run-s lint build"
   },
   "peerDependencies": {
@@ -44,8 +45,9 @@
     "husky": "0.14.x",
     "npm-run-all": "4.x",
     "rimraf": "2.x",
+    "standard-version": "4.2.x",
     "watch": "1.x",
-    "xo": "^0.18.2"
+    "xo": "0.18.x"
   },
   "xo": {
     "env": [
