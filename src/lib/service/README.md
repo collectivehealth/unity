@@ -1,6 +1,6 @@
 ### `service(name: string[, opts: object]): object`
 
-Configures a service for testing. Because services are singletons and are instantiated as soon as the application runs, you cannot mock a service's injectables with `service`. Instead, mock them at the application level with `module`.
+Configures a service for testing. Because services are singletons and are instantiated as soon as the application runs, you cannot mock a service's injectables with `service`. Instead, mock them at the application level with [`module`](/src/utils/module).
 
 **Parameters:**
 
